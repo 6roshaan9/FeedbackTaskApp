@@ -1,14 +1,24 @@
-Create a database named "task_app". Changeable from .env file
-Update your database credentials from .env file
+## Database Setup
 
-Run the following commands:
+1. Create a database named "task_app". You can customize this name in the `.env` file.
 
-composer install
-npm install
-php artisan migrate --seed
-php artisan serve
-npm run dev
+2. Update your database credentials in the `.env` file.
 
-the seeder will create a default admin for the project
-admin mail: admin@example.com
-admin password: admin@123
+## Setup Commands
+
+-   **composer install**
+
+-   **npm install**
+
+-   **php artisan migrate --seed**
+
+-   **php artisan serve**
+
+-   **npm run dev**
+
+## Default Admin Credentials
+
+Default admin account is created from the seeder with the following credentials
+
+-   **Admin Email:** admin@example.com
+-   **Admin Password:** admin@123
